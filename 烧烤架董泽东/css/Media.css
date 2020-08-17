@@ -1,0 +1,205 @@
+/* pc端 */
+@media (min-width: 992px) {
+	.containers .cont{
+		height: 214px;
+		width: 970px;
+	}
+	.cont .sele li{
+		width: 228px;
+		height: 184px;
+		padding: 0 20px;
+		margin: 0 5px;
+	}
+}
+
+/* 平板端 */
+@media (min-width: 771px) and (max-width: 991.98px) { 
+	.containers .cont{
+		height: 314px;
+		width: 750px;
+	}
+	.cont .sele li{
+		width: 183px;
+		height: 272px;
+		padding: 0 15px;
+		margin: 0 1px;
+	}
+	.catpion .cats h3{
+		font-size: 50px;
+	}
+	.navbar-nav{
+		border: 1px solid #CCCCCC;
+		background: rgba(0,0,0,.3);
+	}
+	/* 主题 */
+	main .contentA{
+		height: 1980px;
+	}
+	.conts .rowd{
+		height: 1700px;
+	}
+	.conts .rowd li{
+		width: 100%;
+		height: 554px;
+		margin: 10px 0;
+	}
+	.conts .rowd li .tops{
+		height: 470px;
+	}
+	.conts .rowd li .bottons{
+		height: 84px;
+	}
+	/* 第二部分 */
+	main .contentB{
+		height: 701px;
+	}
+	.contentB .conts{
+		height: 731px;
+	}
+	.conts .shan{
+		height: 215px;
+	}
+	.conts .shan .shange{
+		height: 215px;
+	}
+	.conts .shange .ri{
+		width: 60%;
+		height: 100%;
+	}
+	.conts .shange .le{
+		padding: 0;
+	}
+	footer .row{
+		width: 80%;
+		height: 74px;
+		margin: 0 auto;
+	}
+	footer .row ul{
+		width: 225px;
+		height: 32px;
+	}
+	footer .row ul li{
+		float: left;
+	}
+	.row .natwork{
+		margin-left: 400px;
+	}
+}
+
+/* 手机端 */
+@media (max-width: 770px) { 
+	header{
+		height: 200px;
+	}
+	.navbar{
+		padding: 8px 30px;
+	}
+	.navbar-nav{
+		background: #391300;
+	}
+	.show{
+		background: #391300;
+	}
+	header .lunbo{
+		height: 200px;
+	}
+	.containers .cont{
+		height: 769px;
+		width: 594px;
+	}
+	.cont .sele li{
+		width: 589px;
+		height: 166px;
+		padding: 0 15px;
+		margin: 0 1px;
+		margin-bottom: 20px;
+	}
+	.carousel-item .catpion{
+		display: none;
+	}
+	.containers .cont{
+		width: 100%;
+	}
+	.cont .sele{
+		width: 100%;
+	}
+	.cont .sele li{
+		width: 100%;
+		margin: 0;
+	}
+	/* 主题 */
+	/* zhuti */
+	.conts .rows{
+		height: 282px;
+	}
+	.conts .rows h2{
+		font-size: 40px;
+	}
+	.conts .rows p{
+		font-size: 15px;
+	}
+	/* 第一部分 */
+	main .contentA{
+		height: 1600px;
+	}
+	.biaos .conts .rows{
+		height: 173px;
+	}
+	.conts .rowd{
+		height: 400px;
+	}
+	.conts .rowd li{
+		width: 100%;
+		height: 400px;
+		margin: 10px 0;
+	}
+	.conts .rowd li .tops{
+		height: 202px;
+	}
+	.conts .rowd li .bottons{
+		height: 172px;
+	}
+	/* 第二部分 */
+	main .contentB{
+		height: 903px;
+	}
+	main .conts .shan{
+		height: auto;
+	}
+	.shan .shange{
+		height: 90px;
+	}
+	/* 第三部分 */
+	main .contentC{
+		height: 1003px;
+	}
+	footer{
+		height: auto;
+	}
+	footer .row{
+		width: 85%;
+		height: 74px;
+		margin: 0 auto;
+	}
+	footer .containers .cont{
+		height: 667px;
+	}
+	.row .natwork{
+		margin-left: 20px;
+	}
+}
+@media (max-width: 568px){
+	/* 第二部分 */
+	main .contentB{
+		height: 1003px;
+	}
+	main .conts .shan{
+		height: auto;
+	}
+	.shan .shange{
+		height: 120px;
+	}
+	main .contentC{
+		height: 1003px;
+	}
+}
